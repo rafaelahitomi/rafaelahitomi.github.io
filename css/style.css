@@ -228,3 +228,41 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #b0862f;
 }
+
+#orcamento {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .home-content {
+        padding: 0 1rem;
+    }
+
+    .btn-box a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
